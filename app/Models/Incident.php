@@ -68,10 +68,11 @@ class Incident extends Model implements HasPresenter
      * @var string[]
      */
     protected $casts = [
-        'visible'      => 'int',
-        'stickied'     => 'int',
-        'scheduled_at' => 'date',
-        'deleted_at'   => 'date',
+        'visible'       => 'int',
+        'stickied'      => 'int',
+        'scheduled_at'  => 'date',
+        'scheduled_end' => 'date',
+        'deleted_at'    => 'date',
     ];
 
     /**
@@ -87,6 +88,7 @@ class Incident extends Model implements HasPresenter
         'stickied',
         'message',
         'scheduled_at',
+        'scheduled_end',
         'created_at',
         'updated_at',
     ];

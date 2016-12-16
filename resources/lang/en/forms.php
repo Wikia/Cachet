@@ -52,6 +52,7 @@ return [
         'message'            => 'Message',
         'message-help'       => 'You may also use Markdown.',
         'scheduled_at'       => 'When to schedule the maintenance for?',
+        'scheduled_end'      => 'When scheduled maintenance should end?',
         'incident_time'      => 'When did this incident occur?',
         'notify_subscribers' => 'Notify subscribers?',
         'notify_directly'    => 'Inform the following:',
