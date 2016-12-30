@@ -32,6 +32,7 @@ return [
         'next_week'     => 'Επόμενη εβδομάδα',
         'scheduled'     => 'Προγραμματισμένη Συντήρηση',
         'scheduled_at'  => ', προγραμματισμένη :timestamp',
+		'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Προγραμματίστηκε', // TODO: Hopefully remove this.
             1 => 'Διερευνάται',

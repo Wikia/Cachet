@@ -61,6 +61,7 @@ return [
         'schedule'     => 'Jadwal Pemeliharaan',
         'logged'       => '{0} There are no schedules, good work.|You have logged one schedule.|You have reported <strong>:count</strong> schedules.',
         'scheduled_at' => 'Dijadwalkan pada :timestamp',
+		'scheduled_to' => 'Scheduled till :timestamp',
         'add'          => [
             'title'   => 'Add Scheduled Maintenance',
             'success' => 'Schedule added.',

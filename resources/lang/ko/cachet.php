@@ -32,6 +32,7 @@ return [
         'next_week'     => '다음 주',
         'scheduled'     => '예정된 유지 보수',
         'scheduled_at'  => ', :timestamp 에 예정됨',
+		'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => '예정됨', // TODO: Hopefully remove this.
             1 => '파악 중',

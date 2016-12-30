@@ -32,6 +32,7 @@ return [
         'next_week'     => 'Propera setmana',
         'scheduled'     => 'Interrupció programada',
         'scheduled_at'  => ', programat',
+		'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Programat', // TODO: Hopefully remove this.
             1 => 'Investigant',

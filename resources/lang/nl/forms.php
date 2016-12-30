@@ -45,6 +45,7 @@ return [
         'message'            => 'Boodschap',
         'message-help'       => 'U kan ook gebruik maken van Markdown.',
         'scheduled_at'       => 'Voor wanneer is het onderhoud gepland?',
+		'scheduled_to'       => 'When will the maintenance end?',
         'incident_time'      => 'Wanneer heeft dit incident plaatsgevonden?',
         'notify_subscribers' => 'Houd abonnees op de hoogte?',
         'visibility'         => 'Incident Zichtbaarheid',

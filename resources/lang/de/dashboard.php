@@ -61,6 +61,7 @@ return [
         'schedule'     => 'Planmäßige Wartung',
         'logged'       => '{0} Es gibt keine Zeitpläne, gute Arbeit.|Du hast einen Zeitplan geloggt.|Du hast <strong>:count</strong> Zeitpläne gemeldet.',
         'scheduled_at' => 'Geplant am :timestamp',
+		'scheduled_to' => 'Scheduled till :timestamp',
         'add'          => [
             'title'   => 'Planmäßige Wartung hinzufügen',
             'success' => 'Zeitplan hinzugefügt.',

@@ -45,6 +45,7 @@ return [
         'message'            => 'Tin nhắn',
         'message-help'       => 'Bạn cũng có thể sử dụng Markdown.',
         'scheduled_at'       => 'Khi nào bảo trì định kỳ?',
+		'scheduled_to'       => 'When will the maintenance end?',
         'incident_time'      => 'When did this incident occur?',
         'notify_subscribers' => 'Notify subscribers?',
         'visibility'         => 'Incident Visibility',

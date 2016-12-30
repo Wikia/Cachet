@@ -32,6 +32,7 @@ return [
         'next_week'     => 'Próxima semana',
         'scheduled'     => 'Manutenção Agendada',
         'scheduled_at'  => ', agendada :timestamp',
+		'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Agendada', // TODO: Hopefully remove this.
             1 => 'Investigando',

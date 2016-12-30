@@ -45,6 +45,7 @@ return [
         'message'            => 'Pesan',
         'message-help'       => 'Anda juga bisa menggunakan Markdown.',
         'scheduled_at'       => 'Berapa lama pemeliharaan ini dijadwalkan?',
+		'scheduled_to'       => 'When will the maintenance end?',
         'incident_time'      => 'Kapan insiden ini terjadi?',
         'notify_subscribers' => 'Beritahu subscriber',
         'visibility'         => 'Incident Visibility',

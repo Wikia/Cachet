@@ -45,6 +45,7 @@ return [
         'message'            => 'Missatge',
         'message-help'       => 'També podeu fer servir Markdown.',
         'scheduled_at'       => 'Per quan s\'ha de programar el manteniment?',
+		'scheduled_to'       => 'When will the maintenance end?',
         'incident_time'      => 'Quan va succeir aquest incident?',
         'notify_subscribers' => 'Notificar els subscriptors?',
         'visibility'         => 'Visibilitat de l\'incident',

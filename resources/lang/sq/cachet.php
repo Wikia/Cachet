@@ -32,6 +32,7 @@ return [
         'next_week'     => 'Next',
         'scheduled'     => 'Mirëmbajtje planifikuar',
         'scheduled_at'  => ', planifiko :timestamp',
+		'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Planifikuar', // TODO: Hopefully remove this.
             1 => 'Hetimin',

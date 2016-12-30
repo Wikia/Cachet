@@ -32,6 +32,7 @@ return [
         'next_week'     => 'Nächste Woche',
         'scheduled'     => 'Geplante Wartungen',
         'scheduled_at'  => ', geplant :timestamp',
+		'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Geplant', // TODO: Hopefully remove this.
             1 => 'Untersuchungen laufen',
