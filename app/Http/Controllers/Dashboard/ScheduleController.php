@@ -160,7 +160,7 @@ class ScheduleController extends Controller
                 $messageBag->add('scheduled_to', trans('validation.date', ['attribute' => 'scheduled time you supplied']));
 
                 return Redirect::route('dashboard.schedule.edit', ['id' => $schedule->id])->withErrors($messageBag);
-        }
+            }
             $scheduleData['scheduled_to'] = $scheduledTo;
         } else {
             $scheduleData['scheduled_to'] = null;
