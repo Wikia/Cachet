@@ -46,7 +46,7 @@ return [
         'message-help'       => '你可以使用 Markdown 。',
         'scheduled_at'       => '排期在什麼時候進行維護？',
         'scheduled_to'       => 'When will the maintenance end?',
-		'incident_time'      => '這次事件是什麽時候發生的？',
+        'incident_time'      => '這次事件是什麽時候發生的？',
         'notify_subscribers' => '通知訂閱者',
         'visibility'         => 'Incident Visibility',
         'public'             => '公共可見',
