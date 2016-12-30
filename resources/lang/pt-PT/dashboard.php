@@ -61,6 +61,7 @@ return [
         'schedule'     => 'Manutenção Agendada',
         'logged'       => '{0} Não existem agendamentos, bom trabalho.|Você introduziu um agendamento.|Você reportou <strong>:count</strong> agendamentos.',
         'scheduled_at' => 'Agendada em :timestamp',
+        'scheduled_end' => 'Scheduled till :timestamp',
         'add'          => [
             'title'   => 'Add Scheduled Maintenance',
             'success' => 'Schedule added.',

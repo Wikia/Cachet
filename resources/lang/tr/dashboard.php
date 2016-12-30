@@ -61,6 +61,7 @@ return [
         'schedule'     => 'Zamanlanmış bakım',
         'logged'       => '{0} There are no schedules, good work.|You have logged one schedule.|You have reported <strong>:count</strong> schedules.',
         'scheduled_at' => ':timestamp zamanı için kaydedildi',
+        'scheduled_end' => 'Scheduled till :timestamp',
         'add'          => [
             'title'   => 'Add Scheduled Maintenance',
             'success' => 'Schedule added.',

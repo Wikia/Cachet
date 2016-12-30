@@ -32,6 +32,7 @@ return [
         'next_week'     => 'Next',
         'scheduled'     => 'Ütemezett karbantartás',
         'scheduled_at'  => ', ütemezett :timestamp',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Ütemezett', // TODO: Hopefully remove this.
             1 => 'Kivizsgálás',

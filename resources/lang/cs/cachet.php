@@ -32,6 +32,7 @@ return [
         'next_week'     => 'Next',
         'scheduled'     => 'Plánovaná odstávka',
         'scheduled_at'  => ', plánované na :timestamp',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Naplánováno', // TODO: Hopefully remove this.
             1 => 'Zkoumání příčiny',

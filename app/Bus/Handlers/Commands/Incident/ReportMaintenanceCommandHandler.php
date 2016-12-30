@@ -47,11 +47,17 @@ class ReportMaintenanceCommandHandler
     public function handle(ReportMaintenanceCommand $command)
     {
         $scheduledAt = $this->dates->create('d/m/Y H:i', $command->timestamp);
+        if (!$command->timestamp_end) {
+            $scheduledEnd = null;
+        } else {
+           $scheduledEnd = $this->dates->create('d/m/Y H:i', $command->timestamp_end);
+        }
 
         $maintenanceEvent = Incident::create([
             'name'         => $command->name,
             'message'      => $command->message,
             'scheduled_at' => $scheduledAt,
+            'scheduled_end' => $scheduledEnd,
             'status'       => 0,
             'visible'      => 1,
             'stickied'     => false,

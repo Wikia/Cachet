@@ -99,6 +99,7 @@ class ScheduleController extends Controller
                 Binput::get('message'),
                 Binput::get('notify'),
                 Binput::get('scheduled_at'),
+                Binput::get('scheduled_end'),
                 Binput::get('notify_direct')
             ));
         } catch (ValidationException $e) {
@@ -151,6 +152,20 @@ class ScheduleController extends Controller
         }
 
         $scheduleData['scheduled_at'] = $scheduledAt;
+
+        if ($scheduleData['scheduled_end']) {
+            $scheduledEnd = app(DateFactory::class)->create('d/m/Y H:i', $scheduleData['scheduled_end']);
+            if ($scheduledEnd->lt($scheduledAt)) {
+                $messageBag = new MessageBag();
+                $messageBag->add('scheduled_end', trans('validation.date', ['attribute' => 'scheduled end time you supplied']));
+
+                return Redirect::route('dashboard.schedule.edit', ['id' => $schedule->id])->withErrors($messageBag);
+            }
+            $scheduleData['scheduled_end'] = $scheduledEnd;
+        } else {
+            $scheduleData['scheduled_end'] = null;
+        }
+
         // Bypass the incident.status field.
         $scheduleData['status'] = 0;
 

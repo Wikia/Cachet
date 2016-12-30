@@ -32,6 +32,7 @@ return [
         'next_week'     => 'Next',
         'scheduled'     => 'Scheduled Maintenance',
         'scheduled_at'  => ', scheduled :timestamp',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Scheduled', // TODO: Hopefully remove this.
             1 => 'Investigating',

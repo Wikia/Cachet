@@ -32,6 +32,7 @@ return [
         'next_week'     => '后一周',
         'scheduled'     => 'Scheduled Maintenance',
         'scheduled_at'  => ', scheduled :timestamp',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => '计划中', // TODO: Hopefully remove this.
             1 => '确认中',

@@ -32,6 +32,7 @@ return [
         'next_week'     => 'Nästa vecka',
         'scheduled'     => 'Planerat underhåll',
         'scheduled_at'  => ', schemalagda: tidsstämpel',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Schemalagd', // TODO: Hopefully remove this.
             1 => 'Undersöker',

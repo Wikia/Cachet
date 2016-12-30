@@ -32,6 +32,7 @@ return [
         'next_week'     => 'crwdns544:0crwdne544:0',
         'scheduled'     => 'crwdns438:0crwdne438:0',
         'scheduled_at'  => 'crwdns439:0crwdne439:0',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'crwdns440:0crwdne440:0', // TODO: Hopefully remove this.
             1 => 'crwdns299:0crwdne299:0',

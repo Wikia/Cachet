@@ -33,6 +33,7 @@ class ReportMaintenanceCommandTest extends AbstractTestCase
             'message'       => 'Foo bar baz',
             'notify'        => false,
             'timestamp'     => '2020-12-30 00:00:01',
+            'timestamp_end' => '2020-12-31 00:00:01',
             'direct_notify' => false,
         ];
 
@@ -41,6 +42,7 @@ class ReportMaintenanceCommandTest extends AbstractTestCase
             $params['message'],
             $params['notify'],
             $params['timestamp'],
+            $params['timestamp_end'],
             $params['direct_notify']
         );
 

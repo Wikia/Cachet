@@ -45,6 +45,7 @@ return [
         'message'            => '描述',
         'message-help'       => 'You may also use Markdown.',
         'scheduled_at'       => 'When to schedule the maintenance for?',
+        'scheduled_end'       => 'When will the maintenance end?',
         'incident_time'      => '这次故障是什么时候发生的？',
         'notify_subscribers' => '通知订阅者',
         'visibility'         => '故障的可见性',

@@ -45,6 +45,7 @@ return [
         'message'            => 'Mesaj',
         'message-help'       => 'Markdown işaretleri kullanabilirsiniz.',
         'scheduled_at'       => 'Bakım ne zaman?',
+        'scheduled_end'       => 'When will the maintenance end?',
         'incident_time'      => 'When did this incident occur?',
         'notify_subscribers' => 'Notify subscribers?',
         'visibility'         => 'Incident Visibility',

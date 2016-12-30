@@ -2,7 +2,11 @@
 
 {!! $status !!}
 {!! $text_content !!}
+@if($timestamp_end)
+{!! trans('cachet.incidents.scheduled_from_till', ['from' => $timestamp, 'till' => $timestamp_end]) !!}
+@else
 {!! $timestamp !!}
+@endif
 
 @if($has_component)
 ({{ $component_name }})

@@ -32,6 +32,7 @@ return [
         'next_week'     => 'Pekan selanjutnya',
         'scheduled'     => 'Jadwal Pemeliharaan',
         'scheduled_at'  => ', dijadwalkan pada :timestamp',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Dijadwalkan', // TODO: Hopefully remove this.
             1 => 'Investigasi',

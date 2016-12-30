@@ -42,6 +42,13 @@ final class ReportMaintenanceCommand
     public $timestamp;
 
     /**
+     * Timestamp of when the maintenance is due to end (optional).
+     *
+     * @var string
+     */
+    public $timestamp_end;
+
+    /**
      * Comma separated list of e-mails to send notifications to.
      *
      * @var string
@@ -58,6 +65,7 @@ final class ReportMaintenanceCommand
         'message'   => 'string',
         'notify'    => 'bool',
         'timestamp' => 'string',
+        'timestamp_end' => 'string',
     ];
 
     /**
@@ -67,16 +75,18 @@ final class ReportMaintenanceCommand
      * @param string $message
      * @param bool   $notify
      * @param string $timestamp
+     * @param string $timestamp_end
      * @param string $directNotify
      *
      * @return void
      */
-    public function __construct($name, $message, $notify, $timestamp, $directNotify = false)
+    public function __construct($name, $message, $notify, $timestamp, $timestamp_end, $directNotify = false)
     {
         $this->name = $name;
         $this->message = $message;
         $this->notify = $notify;
         $this->timestamp = $timestamp;
+        $this->timestamp_end = $timestamp_end;
         $this->directNotify = $directNotify;
     }
 }

@@ -32,6 +32,7 @@ return [
         'next_week'     => '下一週',
         'scheduled'     => '排程維護',
         'scheduled_at'  => '，於:timestamp',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => '排程中的維護', // TODO: Hopefully remove this.
             1 => '調查中',

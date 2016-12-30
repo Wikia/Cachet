@@ -32,6 +32,7 @@ return [
         'next_week'     => 'Săptămâna viitoare',
         'scheduled'     => 'Întreținere programată',
         'scheduled_at'  => ', programată: timestamp',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Programată', // TODO: Hopefully remove this.
             1 => 'Sub investigație',

@@ -61,6 +61,7 @@ return [
         'schedule'     => 'Manutenzione programmata',
         'logged'       => '{0} non ci sono pianificazioni, buon lavoro. | Hai annotato una pianificazione. | Hai riportato <strong>:count</strong> pianificazioni.',
         'scheduled_at' => 'Pianificato alle :timestamp',
+        'scheduled_end' => 'Scheduled till :timestamp',
         'add'          => [
             'title'   => 'Aggiungi manutenzione programmata',
             'success' => 'Pianificazione aggiunta.',

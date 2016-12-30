@@ -9,7 +9,11 @@
             <p class="compressed">
                 <strong>{!! $status !!}</strong>
                 {!! $html_content !!}
+                @if($timestamp_end)
+                {!! trans('cachet.incidents.scheduled_from_till', ['from' => $timestamp, 'till' => $timestamp_end]) !!}
+                @else
                 {!! $timestamp !!}
+                @endif
             </p>
         </td>
     <tr>

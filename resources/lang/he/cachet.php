@@ -32,6 +32,7 @@ return [
         'next_week'     => 'Next',
         'scheduled'     => 'תחזוקה מתוזמנת',
         'scheduled_at'  => ', scheduled :timestamp',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'מתוזמן', // TODO: Hopefully remove this.
             1 => 'Investigating',

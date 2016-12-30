@@ -32,6 +32,7 @@ return [
         'next_week'     => 'Prossima Settimana',
         'scheduled'     => 'Manutenzione programmata',
         'scheduled_at'  => ', programmata il :timestamp',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Programmata', // TODO: Hopefully remove this.
             1 => 'Analisi',

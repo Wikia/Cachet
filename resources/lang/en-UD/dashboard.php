@@ -61,6 +61,7 @@ return [
         'schedule'     => 'crwdns445:0crwdne445:0',
         'logged'       => 'crwdns642:0{0}crwdne642:0',
         'scheduled_at' => 'crwdns446:0crwdne446:0',
+        'scheduled_end' => 'Scheduled till :timestamp',
         'add'          => [
             'title'   => 'crwdns673:0crwdne673:0',
             'success' => 'crwdns674:0crwdne674:0',

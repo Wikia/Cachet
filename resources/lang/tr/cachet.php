@@ -32,6 +32,7 @@ return [
         'next_week'     => 'Gelecek Hafta',
         'scheduled'     => 'Zamanlanmış bakım',
         'scheduled_at'  => ',zamanlanmış :zamandilimi',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Zamanlanmış', // TODO: Hopefully remove this.
             1 => 'İnceleniyor',

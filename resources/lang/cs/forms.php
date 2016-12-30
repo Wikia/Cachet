@@ -45,6 +45,7 @@ return [
         'message'            => 'Zpráva',
         'message-help'       => 'Můžete také použít Markdown.',
         'scheduled_at'       => 'Na kdy naplánovat údržbu/výpadek?',
+        'scheduled_end'       => 'When will the maintenance end?',
         'incident_time'      => 'Kdy k incidentu došlo?',
         'notify_subscribers' => 'Notify subscribers?',
         'visibility'         => 'Incident Visibility',

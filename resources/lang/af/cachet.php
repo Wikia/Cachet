@@ -32,6 +32,7 @@ return [
         'next_week'     => 'Volgende Week',
         'scheduled'     => 'Geskeduleerde Instandhouding',
         'scheduled_at'  => ', scheduled :timestamp',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Geskeduleerd', // TODO: Hopefully remove this.
             1 => 'Onder die Loep',

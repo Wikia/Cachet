@@ -32,6 +32,7 @@ return [
         'next_week'     => 'هفته ی آتی',
         'scheduled'     => 'تعمیرات زمان‌بندی شده',
         'scheduled_at'  => '، برنامه ریزی شده :timestamp',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'برنامه ریزی شده', // TODO: Hopefully remove this.
             1 => 'در دست بررسی',

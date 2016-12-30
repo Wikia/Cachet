@@ -45,6 +45,7 @@ return [
         'message'            => 'Nachricht',
         'message-help'       => 'Sie können auch Markdown verwenden.',
         'scheduled_at'       => 'Für wann ist die Wartung geplant?',
+        'scheduled_end'       => 'When will the maintenance end?',
         'incident_time'      => 'Wann ist dieser Vorfall aufgetreten?',
         'notify_subscribers' => 'Abonnenten benachrichtigen',
         'visibility'         => 'Vorfall Sichtbarkeit',

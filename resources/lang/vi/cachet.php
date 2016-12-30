@@ -32,6 +32,7 @@ return [
         'next_week'     => 'Tuần sau',
         'scheduled'     => 'Bảo trì định kỳ',
         'scheduled_at'  => ', định kỳ :timestamp',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Đã xếp lịch', // TODO: Hopefully remove this.
             1 => 'Đang điều tra',

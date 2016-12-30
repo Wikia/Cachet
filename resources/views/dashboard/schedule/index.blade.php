@@ -27,6 +27,10 @@
                             <strong>{{ $incident->name }}</strong>
                             <br>
                             {{ trans('dashboard.schedule.scheduled_at', ['timestamp' => $incident->scheduled_at_iso]) }}
+                            @if($incident->scheduled_end)
+                            <br>
+                            {{ trans('dashboard.schedule.scheduled_end', ['timestamp' => $incident->scheduled_end_iso]) }}
+                            @endif
                             @if($incident->message)
                             <p><small>{{ Str::words($incident->message, 5) }}</small></p>
                             @endif
