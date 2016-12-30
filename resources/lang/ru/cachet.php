@@ -32,7 +32,7 @@ return [
         'next_week'     => 'Следующая неделя',
         'scheduled'     => 'Плановые работы',
         'scheduled_at'  => ', запланированы :timestamp',
-		'scheduled_from_till' => ':from till :till',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Запланировано', // TODO: Hopefully remove this.
             1 => 'Проводим анализ проблемы',

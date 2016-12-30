@@ -32,7 +32,7 @@ return [
         'next_week'     => 'Neste uke',
         'scheduled'     => 'Planlagt vedlikehold',
         'scheduled_at'  => ', planlagt :timestamp',
-		'scheduled_from_till' => ':from till :till',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Planlagt', // TODO: Hopefully remove this.
             1 => 'Undersøkes',

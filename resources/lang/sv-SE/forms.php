@@ -45,7 +45,7 @@ return [
         'message'            => 'Meddelande',
         'message-help'       => 'Du kan även använda Markdown.',
         'scheduled_at'       => 'När vill du schemalägga underhållet?',
-		'scheduled_to'       => 'When will the maintenance end?',
+        'scheduled_to'       => 'When will the maintenance end?',
         'incident_time'      => 'När inträffade händelsen?',
         'notify_subscribers' => 'Meddela prenumeranter?',
         'visibility'         => 'Incident Visibility',

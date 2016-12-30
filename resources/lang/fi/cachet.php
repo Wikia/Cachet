@@ -32,7 +32,7 @@ return [
         'next_week'     => 'Seuraava viikko',
         'scheduled'     => 'Määräaikaishuolto',
         'scheduled_at'  => ', ajoitettu :timestamp',
-		'scheduled_from_till' => ':from till :till',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Ajoitettu', // TODO: Hopefully remove this.
             1 => 'Tutkitaan',

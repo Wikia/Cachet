@@ -45,7 +45,7 @@ return [
         'message'            => '메시지',
         'message-help'       => 'Markdown을 사용할 수 있습니다.',
         'scheduled_at'       => '언제 작업을 예약하시겠습니까?',
-		'scheduled_to'       => 'When will the maintenance end?',
+        'scheduled_to'       => 'When will the maintenance end?',
         'incident_time'      => '이 문제는 언제 발생 했습니까??',
         'notify_subscribers' => '구독자에게 알림',
         'visibility'         => 'Incident Visibility',

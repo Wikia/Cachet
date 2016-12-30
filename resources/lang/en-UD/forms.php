@@ -45,7 +45,7 @@ return [
         'message'            => 'crwdns387:0crwdne387:0',
         'message-help'       => 'crwdns388:0crwdne388:0',
         'scheduled_at'       => 'crwdns464:0crwdne464:0',
-		'scheduled_to'       => 'When will the maintenance end?',
+        'scheduled_to'       => 'When will the maintenance end?',
         'incident_time'      => 'crwdns481:0crwdne481:0',
         'notify_subscribers' => 'crwdns585:0crwdne585:0',
         'visibility'         => 'crwdns711:0crwdne711:0',

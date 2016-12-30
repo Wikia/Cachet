@@ -32,7 +32,7 @@ return [
         'next_week'     => '次の週',
         'scheduled'     => '計画メンテナンス',
         'scheduled_at'  => ', 予定日時 :timestamp',
-		'scheduled_from_till' => ':from till :till',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Scheduled', // TODO: Hopefully remove this.
             1 => '調査中',

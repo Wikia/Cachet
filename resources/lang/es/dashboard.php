@@ -61,7 +61,7 @@ return [
         'schedule'     => 'Mantenimiento programado',
         'logged'       => '{0} No hay planificaciones, buen trabajo.|Has registrado una planificación.|Has registrado <strong>:count</strong> planificaciones.',
         'scheduled_at' => 'Programado para :timestamp',
-		'scheduled_to' => 'Scheduled till :timestamp',
+        'scheduled_to' => 'Scheduled till :timestamp',
         'add'          => [
             'title'   => 'Agregar mantenimiento programado',
             'success' => 'Planificación agregada.',

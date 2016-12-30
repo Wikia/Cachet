@@ -32,7 +32,7 @@ return [
         'next_week'     => 'Semana siguiente',
         'scheduled'     => 'Mantenimiento programado',
         'scheduled_at'  => ', programado para :timestamp',
-		'scheduled_from_till' => ':from till :till',
+        'scheduled_from_till' => ':from till :till',
         'status'        => [
             0 => 'Programado', // TODO: Hopefully remove this.
             1 => 'Investigando',

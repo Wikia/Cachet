@@ -61,7 +61,7 @@ return [
         'schedule'     => '计划维护',
         'logged'       => '{0} 现在没有维护计划，好样的。|你已经记录下 1 个维护计划|你已经报告了 <strong>:count</strong> 个维护计划',
         'scheduled_at' => 'Scheduled at :timestamp',
-		'scheduled_to' => 'Scheduled till :timestamp',
+        'scheduled_to' => 'Scheduled till :timestamp',
         'add'          => [
             'title'   => '添加维护计划',
             'success' => '维护计划已添加。',

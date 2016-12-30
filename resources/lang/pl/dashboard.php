@@ -61,7 +61,7 @@ return [
         'schedule'     => 'Geplante Wartungen',
         'logged'       => '{0} Nie ma żadnych harmonogramów, dobra robota.|Posiadasz jeden harmonogram.|Zgłoszono <strong>:count</strong> harmonogramów.',
         'scheduled_at' => 'Geplant am :timestamp',
-		'scheduled_to' => 'Scheduled till :timestamp',
+        'scheduled_to' => 'Scheduled till :timestamp',
         'add'          => [
             'title'   => 'Zaplanuj prace konserwatorskie',
             'success' => 'Dodano harmonogram.',

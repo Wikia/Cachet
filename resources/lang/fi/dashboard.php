@@ -61,7 +61,7 @@ return [
         'schedule'     => 'Ajastettu huolto',
         'logged'       => '{0} There are no schedules, good work.|You have logged one schedule.|You have reported <strong>:count</strong> schedules.',
         'scheduled_at' => 'Ajastettu :timestamp alkaen',
-		'scheduled_to' => 'Scheduled till :timestamp',
+        'scheduled_to' => 'Scheduled till :timestamp',
         'add'          => [
             'title'   => 'Lisää ajastettu huolto',
             'success' => 'Ajastus lisätty.',
