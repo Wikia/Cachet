@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class UpdateIncidentsAddScheduledTo extends Migration
+class UpdateIncidentsAddScheduledEnd extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class UpdateIncidentsAddScheduledTo extends Migration
     public function up()
     {
 		Schema::table('incidents', function (Blueprint $table) {
-			$table->timestamp('scheduled_to')->after('scheduled_at')->nullable()->default(null);
+			$table->timestamp('scheduled_end')->after('scheduled_at')->nullable()->default(null);
 		});
     }
 
@@ -25,7 +25,7 @@ class UpdateIncidentsAddScheduledTo extends Migration
     public function down()
     {
 		Schema::table('incidents', function (Blueprint $table) {
-			$table->dropColumn('scheduled_to');
+			$table->dropColumn('scheduled_end');
 		});
     }
 }

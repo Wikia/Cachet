@@ -61,7 +61,7 @@ return [
         'schedule'     => 'Planerat underhåll',
         'logged'       => '{0} Det finns inget schemalagt, bra jobbat!|Du har skapat ett schemalagt underhåll.|Du har skapat <strong>:count</strong> schemalagda underhåll.',
         'scheduled_at' => 'Schemalagd till: tidsstämpel',
-        'scheduled_to' => 'Scheduled till :timestamp',
+        'scheduled_end' => 'Scheduled till :timestamp',
         'add'          => [
             'title'   => 'Add Scheduled Maintenance',
             'success' => 'Schedule added.',

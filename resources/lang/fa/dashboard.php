@@ -61,7 +61,7 @@ return [
         'schedule'     => 'تعمیرات زمان‌بندی شده',
         'logged'       => '{0} There are no schedules, good work.|You have logged one schedule.|You have reported <strong>:count</strong> schedules.',
         'scheduled_at' => 'Scheduled at :timestamp',
-        'scheduled_to' => 'Scheduled till :timestamp',
+        'scheduled_end' => 'Scheduled till :timestamp',
         'add'          => [
             'title'   => 'Add Scheduled Maintenance',
             'success' => 'Schedule added.',

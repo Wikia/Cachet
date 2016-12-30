@@ -127,7 +127,7 @@ class SendMaintenanceEmailNotificationHandler
             'component_name'       => $component ? $component->name : null,
             'name'                 => $incident->name,
             'timestamp'            => $incident->scheduled_at_formatted,
-            'timestamp_end'        => $incident->scheduled_to_formatted,
+            'timestamp_end'        => $incident->scheduled_end_formatted,
             'status'               => $incident->human_status,
             'html_content'         => $incident->formattedMessage,
             'text_content'         => $incident->message,

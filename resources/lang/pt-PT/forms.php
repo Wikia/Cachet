@@ -45,7 +45,7 @@ return [
         'message'            => 'Mensagem',
         'message-help'       => 'Você também pode usar o Markdown.',
         'scheduled_at'       => 'Para quando pretende agendar a manutenção?',
-        'scheduled_to'       => 'When will the maintenance end?',
+        'scheduled_end'       => 'When will the maintenance end?',
         'incident_time'      => 'Quando é que este incidente ocorreu?',
         'notify_subscribers' => 'Notificar subscritores?',
         'visibility'         => 'Incident Visibility',

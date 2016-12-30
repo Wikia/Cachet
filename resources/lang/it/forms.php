@@ -45,7 +45,7 @@ return [
         'message'            => 'Messaggio',
         'message-help'       => 'Si può anche utilizzare il linguaggio di Markdown.',
         'scheduled_at'       => 'Per quando si deve pianificare la manutenzione?',
-        'scheduled_to'       => 'When will the maintenance end?',
+        'scheduled_end'       => 'When will the maintenance end?',
         'incident_time'      => 'Quando è accaduto questo incidente?',
         'notify_subscribers' => 'Notificare gli iscritti?',
         'visibility'         => 'Visibilità segnalazione',

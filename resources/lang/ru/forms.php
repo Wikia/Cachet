@@ -45,7 +45,7 @@ return [
         'message'            => 'Сообщение',
         'message-help'       => 'Вы также можете использовать Markdown.',
         'scheduled_at'       => 'Когда запланированы работы?',
-        'scheduled_to'       => 'When will the maintenance end?',
+        'scheduled_end'       => 'When will the maintenance end?',
         'incident_time'      => 'Когда произошел инцидент?',
         'notify_subscribers' => 'Уведомить подписчиков?',
         'visibility'         => 'Отображение инцидента',

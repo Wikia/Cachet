@@ -45,7 +45,7 @@ return [
         'message'            => 'הודעה',
         'message-help'       => 'You may also use Markdown.',
         'scheduled_at'       => 'למתי לתזמן את התחזוקה?',
-        'scheduled_to'       => 'When will the maintenance end?',
+        'scheduled_end'       => 'When will the maintenance end?',
         'incident_time'      => 'When did this incident occur?',
         'notify_subscribers' => 'Notify subscribers?',
         'visibility'         => 'Incident Visibility',

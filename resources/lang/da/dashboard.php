@@ -61,7 +61,7 @@ return [
         'schedule'     => 'Planlagt vedligeholdelse',
         'logged'       => '{0} Der er intet planlagt.|Der er 1 planlagt.|Der er <strong>:count</strong> planlagte.',
         'scheduled_at' => 'Planlagt til :timestamp',
-        'scheduled_to' => 'Scheduled till :timestamp',
+        'scheduled_end' => 'Scheduled till :timestamp',
         'add'          => [
             'title'   => 'Tilføj planlagt vedligeholdelse',
             'success' => 'Planlagt vedligeholdelse tilføjet.',

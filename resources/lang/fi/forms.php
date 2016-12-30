@@ -45,7 +45,7 @@ return [
         'message'            => 'Vesti',
         'message-help'       => 'You may also use Markdown.',
         'scheduled_at'       => 'Milloin huolto aika alkaa?',
-        'scheduled_to'       => 'When will the maintenance end?',
+        'scheduled_end'       => 'When will the maintenance end?',
         'incident_time'      => 'Milloin tämä tapaus tapahtui?',
         'notify_subscribers' => 'Ilmoita tilaajille?',
         'visibility'         => 'Tapahtuman näkyvyys',

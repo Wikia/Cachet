@@ -45,7 +45,7 @@ return [
         'message'            => 'Besked',
         'message-help'       => 'Du kan benytte Markdown.',
         'scheduled_at'       => 'Hvornår vil du have vedligeholdelse?',
-        'scheduled_to'       => 'When will the maintenance end?',
+        'scheduled_end'       => 'When will the maintenance end?',
         'incident_time'      => 'Hvornår skete hændelsen?',
         'notify_subscribers' => 'Underret abonnenter',
         'visibility'         => 'Hændelses synlighed',

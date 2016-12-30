@@ -146,52 +146,55 @@ class IncidentPresenter extends BasePresenter implements Arrayable
     }
 
     /**
-     * Present formatted scheduled to time.
+     * Present formatted scheduled end time.
      *
      * @return string
      */
-    public function scheduled_to()
+    public function scheduled_end()
     {
-        if (!$this->wrappedObject->scheduled_to) {
+        if (!$this->wrappedObject->scheduled_end) {
             return '';
         }
-        return app(DateFactory::class)->make($this->wrappedObject->scheduled_to)->toDateTimeString();
+        return app(DateFactory::class)->make($this->wrappedObject->scheduled_end)->toDateTimeString();
     }
 
     /**
-     * Present formatted scheduled to date time.
+     * Present formatted scheduled end date time.
      *
      * @return string
      */
-    public function scheduled_to_formatted()
+    public function scheduled_end_formatted()
     {
-        if (!$this->wrappedObject->scheduled_to) {
+        if (!$this->wrappedObject->scheduled_end) {
             return '';
         }
-        return ucfirst(app(DateFactory::class)->make($this->wrappedObject->scheduled_to)->format(Config::get('setting.incident_date_format', 'l jS F Y H:i:s')));
+        return ucfirst(app(DateFactory::class)->make($this->wrappedObject->scheduled_end)->format(Config::get('setting.incident_date_format', 'l jS F Y H:i:s')));
     }
 
     /**
-     * Present formatted scheduled to date time.
+     * Present iso-formatted scheduled end date time.
      *
      * @return string
      */
-    public function scheduled_to_iso()
+    public function scheduled_end_iso()
     {
-        if (!$this->wrappedObject->scheduled_to) {
+        if (!$this->wrappedObject->scheduled_end) {
             return '';
         }
-        return app(DateFactory::class)->make($this->wrappedObject->scheduled_to)->toISO8601String();
+        return app(DateFactory::class)->make($this->wrappedObject->scheduled_end)->toISO8601String();
     }
 
     /**
-     * Formats the scheduled_to time ready to be used by bootstrap-datetimepicker.
+     * Formats the scheduled_end time ready to be used by bootstrap-datetimepicker.
      *
      * @return string
      */
-    public function scheduled_to_datetimepicker()
+    public function scheduled_end_datetimepicker()
     {
-        return app(DateFactory::class)->make($this->wrappedObject->scheduled_to)->format('d/m/Y H:i');
+		if (!$this->wrappedObject->scheduled_end) {
+			return '';
+		}
+		return app(DateFactory::class)->make($this->wrappedObject->scheduled_end)->format('d/m/Y H:i');
     }
 
     /**

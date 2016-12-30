@@ -61,7 +61,7 @@ return [
         'schedule'     => 'Gepland onderhoud',
         'logged'       => '{0} Er zijn geen schema\'s, goed werk.|Je hebt één schema aangemaakt.|Je hebt <strong>:count</strong> schema\'s aangegeven.',
         'scheduled_at' => 'Gepland op :timestamp',
-        'scheduled_to' => 'Scheduled till :timestamp',
+        'scheduled_end' => 'Scheduled till :timestamp',
         'add'          => [
             'title'   => 'Gepland onderhoud toevoegen',
             'success' => 'Planning toegevoegd.',

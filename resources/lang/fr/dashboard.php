@@ -61,7 +61,7 @@ return [
         'schedule'     => 'Maintenance planifiée',
         'logged'       => '{0} Aucune maintenance en cours, félicitations.|Vous avez une maintenance planifiée.|Vous avez <strong>:count</strong> maintenances planifiées.',
         'scheduled_at' => 'Planifiée à :timestamp',
-        'scheduled_to' => 'Scheduled till :timestamp',
+        'scheduled_end' => 'Scheduled till :timestamp',
         'add'          => [
             'title'   => 'Ajouter une maintenance planifiée',
             'success' => 'Planification ajoutée.',

@@ -44,8 +44,8 @@
                         <input type="text" name="incident[scheduled_at]" class="form-control" rel="datepicker" value="{{ $schedule->scheduled_at_datetimepicker }}" required placeholder="{{ trans('forms.incidents.scheduled_at') }}">
                     </div>
                     <div class="form-group">
-                        <label>{{ trans('forms.incidents.scheduled_to') }}</label>
-                        <input type="text" name="incident[scheduled_to]" class="form-control" rel="datepicker" value="{{ $schedule->scheduled_to_datetimepicker }}" placeholder="{{ trans('forms.incidents.scheduled_to') }}">
+                        <label>{{ trans('forms.incidents.scheduled_end') }}</label>
+                        <input type="text" name="incident[scheduled_end]" class="form-control" rel="datepicker" value="{{ $schedule->scheduled_end_datetimepicker }}" placeholder="{{ trans('forms.incidents.scheduled_end') }}">
                     </div>
                 </fieldset>
 
