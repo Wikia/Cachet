@@ -43,6 +43,10 @@
                         <label>{{ trans('forms.incidents.scheduled_at') }}</label>
                         <input type="text" name="scheduled_at" class="form-control" rel="datepicker" required placeholder="{{ trans('forms.incidents.scheduled_at') }}">
                     </div>
+                    <div class="form-group">
+                        <label>{{ trans('forms.incidents.scheduled_to') }}</label>
+                        <input type="text" name="scheduled_to" class="form-control" rel="datepicker" placeholder="{{ trans('forms.incidents.scheduled_to') }}">
+                    </div>
                     @if(subscribers_enabled())
                     <div class="checkbox">
                         <label>

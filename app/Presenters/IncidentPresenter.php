@@ -146,6 +146,55 @@ class IncidentPresenter extends BasePresenter implements Arrayable
     }
 
     /**
+     * Present formatted scheduled to time.
+     *
+     * @return string
+     */
+    public function scheduled_to()
+    {
+        if (!$this->wrappedObject->scheduled_to) {
+            return '';
+        }
+        return app(DateFactory::class)->make($this->wrappedObject->scheduled_to)->toDateTimeString();
+    }
+
+    /**
+     * Present formatted scheduled to date time.
+     *
+     * @return string
+     */
+    public function scheduled_to_formatted()
+    {
+        if (!$this->wrappedObject->scheduled_to) {
+            return '';
+        }
+        return ucfirst(app(DateFactory::class)->make($this->wrappedObject->scheduled_to)->format(Config::get('setting.incident_date_format', 'l jS F Y H:i:s')));
+    }
+
+    /**
+     * Present formatted scheduled to date time.
+     *
+     * @return string
+     */
+    public function scheduled_to_iso()
+    {
+        if (!$this->wrappedObject->scheduled_to) {
+            return '';
+        }
+        return app(DateFactory::class)->make($this->wrappedObject->scheduled_to)->toISO8601String();
+    }
+
+    /**
+     * Formats the scheduled_to time ready to be used by bootstrap-datetimepicker.
+     *
+     * @return string
+     */
+    public function scheduled_to_datetimepicker()
+    {
+        return app(DateFactory::class)->make($this->wrappedObject->scheduled_to)->format('d/m/Y H:i');
+    }
+
+    /**
      * Returns a formatted timestamp for use within the timeline.
      *
      * @return string

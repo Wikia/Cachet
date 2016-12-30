@@ -71,6 +71,7 @@ class Incident extends Model implements HasPresenter
         'visible'      => 'int',
         'stickied'     => 'int',
         'scheduled_at' => 'date',
+        'scheduled_to' => 'date',
         'deleted_at'   => 'date',
     ];
 
@@ -87,6 +88,7 @@ class Incident extends Model implements HasPresenter
         'stickied',
         'message',
         'scheduled_at',
+        'scheduled_to',
         'created_at',
         'updated_at',
     ];
